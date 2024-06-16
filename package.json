@@ -27,6 +27,7 @@
     "mysql2": "^3.6.3",
     "node-fetch": "^2.6.7",
     "nodemon": "^2.0.22",
+    "openai": "^4.51.0",
     "pg": "^8.11.3",
     "sequelize": "^6.34.0",
     "socket.io": "^4.7.2",

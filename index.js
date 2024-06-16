@@ -17,6 +17,7 @@ const admin_image = require('./routes/admin/image.routes')
 const admin_imgbb = require('./routes/admin/imgbb.routes')
 const imgbb = require('./routes/imgbb.routes')
 const chat = require('./routes/chat.routes')
+const assistants = require('./routes/assistants.routes')
 const mp3 = require('./routes/mp3.routes')
 const prompt = require('./routes/prompt.routes')
 // Sử dụng router với prefix /api
@@ -46,6 +47,7 @@ app.use('/api/user', user);
 // app.use('/api/comic', comic);
 // app.use('/api/chap', chap);
 app.use('/api/chat', chat);
+app.use('/api/assistants', assistants);
 app.use('/api/mp3', mp3);
 app.use('/api/prompt', prompt);
 // app.use('/api/read', read);
